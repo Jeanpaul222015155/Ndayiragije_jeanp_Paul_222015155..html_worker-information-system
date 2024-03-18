@@ -1,0 +1,190 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.5">
+<body bgcolor="yellow">
+    <p>
+    	<center>
+    	<ul style="list-style-type: none;  padding: 0;">
+        <li style="display: inline; background-color:yellow; margin-right: 14px"><a href="./home.html">HOME</a></li>
+        <li style="display: inline; background-color:yellow; margin-right: 14px"><a href="./about.html">ABOUT</a></li>
+        <li style="display: inline; background-color:yellow; margin-right: 14px"><a href="./form.html">FORM</a></li>
+        <li style="display: inline; background-color:yellow; margin-right: 14px"><a href="./contact.html">CONTACT</a></li>
+        <li style="display: inline; background-color:yellow; margin-right: 14px"><a href="./services.html">SERVICES</a></li>
+        <li style="display: inline; background-color:yellow; margin-right: 14px"><a href="./mybook.html">MYBOOK</a></li>
+        <li style="display: inline; background-color:yellow; margin-right: 14px"><a href="./table.html">TABLE</a></li>
+    </u2></center>
+
+	</p>
+	<h2>DATABASE AND JAVA WITH WORKER INFORMATION SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<u2 type="square"><h3><u><i><li>Tables</li></i></u></h2>
+			              <h3><u><i><li>Attributes</li></i></u></h2>
+		<p>Database name used: <b>worker_information_system.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+            <ul type="square"><li><b>Admin Table</b></li>
+	         <li><b>Worker Table</b></li>
+			    
+			<li><b>Department Table</b></li>
+				
+			<li><b>Assignment Table</b></li>
+			    
+			 <li><b>Project Table</b></li>
+
+<ul type="square"><h3><u><i><li>Attributes</li></i></u></h3>
+ <ul type="square"><li><b>Admin Table</b></li>
+ <li><b>Worker Table</b></li>
+<li><b>Department Table</b></li>
+<li><b>Assignment Table</b></li>	    
+ <li><b>Project Table</b></li>
+
+       </ul>
+   </ol>
+
+		<o1><h2><u><li>2.JAVA</li></u></h2>
+		
+		<ul type="square"><h2><u><i><li>Description</li></i></u></h2>
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+        </u3>
+		
+	</o3>
+
+	<<h3><u><i><li>1. TABLES</li></i></u></h2>
+             <li><b>admin table</b></li>
+			<p>In Worker Information System (WIS)the Admin table database structure typically stores information about users who have administrative privileges in the system. Here is a basic outline of the Admin table structure:
+			Note: It will have email and password for all system users, except the admin to log in</p></br>
+
+			<li><b>workers table</b></li>
+
+			<p>workers table will organize and manage information about the workers in system.It keeps track of their personal details contact information and skills, making it easier to manage and interact with them within the system. detailed imformation about worker which will be like; worker_id ;first_name, last_name, date_of_birth, gender etc.</p> </br>
+
+
+			<li><b>Department table</b></li>
+
+			<p>A Department table in a database typically contains information about different departments within an organization by storing their unique IDs and names.It include: department_id,department_name</p></br>
+
+			<li><b>Assignment table</b></li>
+
+			<p>This Assignment table servers as acentral repository for mannaging tasks, projects or responsibilities assigned to workers.It facilitates assignment tracking, task delegation, communication and collaboration among team members.Manager useuse this table to store assignment data, track progress, assign task to workers, and intgrate assignment detaials with worker information. Overall the assignment table plays a vital role in ensuring efficient task management and workforce coordination within organization. it include: assignment_id, assignment_name, etc.</p></br>
+
+            <li><b>Projects table</b></li>
+
+			<p>A Projects table in a database typically records information about different projects including their unique IDs and names, facilitating organization and management of project. It lies in providing a framework for organizing tasks within the context of broarder projects. it include: project_id, project_name.</p></br>
+
+			<h3><u><i><li>Attributes</li></i></u></h3>
+			  <b>Attributes of Admin Table</b></br>
+
+	Here are the descriptions or purposes of the attributes/columns used in Admin table:</br>
+
+	<p><b><i>user_id:</i></b> The columns which are represents  the id number of user(ex: 1).</br></p> 
+    <p><b><i>username:</i></b> The column which are represents the username of user(ex:kim).</br></p>
+    <p><b><i>role:</i></b> The column which are represents the role of user like admin.</br></p> 
+    <p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p>
+
+              <b>Attributes of worker Table</b></br>
+
+        Here are the descriptions or purposes of the attributes/columns used in worker Table:</br>
+
+    <p><b><i>fname:</i></b> The columns which are represents first name  of worker.</br></p> 
+    <p><b><i>lname:</i></b> The columns which are represennts last name of worker.</br></p> 
+    <p><b><i>phone:</i></b> The column which are represents telephone number of worker.</br></p>
+    <p><b><i>DoB:</i></b> The column which are represents Date of Birth of worker.</br></p>
+    <p><b><i>gender:</i></b> The column which are represents or store gender of worker like female and male.</br></p> 
+    <p><b><i>contact_number:</i></b> The column which are represents phone contact of worker(ex:0788845894).</br></p>
+    <p><b><i>Email:</i></b> The column which are represents Email of given workers.</br></p>
+    <p><b><i>address:</i></b> The column which are represents  the location of workers.</br></p>
+    <p><b><i>skills:</i></b> The column which are represents  the skills of worker (ex:Marketing).</br></p>
+
+           <b>Attributes of Department table </b></br>
+
+           Here are the descriptions or purposes of the attributes/columns used in worker Table:</br>
+
+
+<p><b><i>department_Id:</i></b> The column which are represents  id of  department which is unique value called PRIMARY KEY. It is set to auto-increment (AUTO_INCREMENT).</br>
+AUTO_INCREMENT means that the database will automatically generate a unique ID for each new record, typically incrementing the previous value of department table.</p></br>
+<p><b><i>department_name:</i></b> The column which are represents the name of department (ex: BIT, FINANCE).</p></br>
+
+      <b>Attributes of assignmentt table </b></br>
+
+      Here are the descriptions or purposes of the attributes/columns used in assignmnt Table:</br>
+
+       <p><b><i>assignment_Id:</i></b> The column which are represents the id of assignment .</p></br>
+       <p><b><i>assignment_name</i></b> The column which are represents the name of assignment.</p></br>
+       	<p><b><i>worker_id:</i></b> The column which are represents  the id of worker.</p></br>
+ <p><b><i>project_id:</i></b> The column which are represents  the id of project.</p></br>
+ <p><b><i>start_date:</i></b> The column which are represents  the date of assignment start(starting time).</p></br>
+ <p><b><i>end_date:</i></b> The column which are represents  the ending time of assignment.</p></br>
+
+ <b>Attributes of project table </b></br>
+
+Here are the descriptions or purposes of the attributes/columns used in project Table:</br>
+
+<b><i>project_id:</i></b> The column which are represents a unique identifier for each project. Likely a primary key..</p></br>
+<p><b><i>project_name:</i></b> The column which are represents  the name of project.</p></br>
+
+
+
+ </ul>
+		<h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. in this chapter I will undergo full information of how everything will function together with database that have been describe above and how it cope with full analyzed system.</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<p><b>Eclipse IDE:</b> an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and was the most popular. </p><br>
+
+<p><b>JAR stands for Java Archive:</b>  It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br>
+
+<p><b>Java Development Kit (JDK):</b> It is the essential foundation. JDK provides the compiler that translates your Java code into instructions the computer understands, along with essential libraries for common functionalities.</p><br>
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<b>Registration Form</b></br>
+
+This form it allows new workers to sign up facilitating user management data integrity, scalability, and positive user experience.
+
+<img src="b.png" width=700 height=400><br><br><br><br><br>
+
+<b><i>login Form</i></b></br>
+
+<p>It provides user authentication, access control and enhances system security by allowing only authorized users to access the system`s functionalities and data.</p></br>
+<img src="aa.png" width=700 height=400><br><br><br><br><br>
+
+<b><i>worker information Form</i></b></br>
+
+<p>It allows workers to manage their personal information, view assignment, update skills, communicate with colleagues, and receive feedback, enhancing their engagement and participation in work-related activities within the system.</p></br>
+<img src="bb.png" width=700 height=400><br><br><br><br><br>
+
+<b><i>Assignment Form</i></b></br>
+
+<p>It allows users to manage tasks within projects, facilitating task creation , assignment, tracking, and analysis to ensure efficient project management and coordination.</p></br>
+<img src="a.png" width=700 height=400><br><br><br><br><br>
+
+<b><i>Adimin View Form</i></b></br>
+
+<p>This form it enables administrators to manage user accounts projects, data, system settings, security and support functions ensuring efficientadministration and oversight of the system.</p></br>
+
+<img src="cc.png" width=700 height=400><br><br><br><br><br>
+
+
+<b><i>View Assignment Form</i></b></br>
+
+<p>Allows workers to manage their assigned task track deadlines access task details, communicate with team members, and receive feedback, facilitating effective task management and collaboration within the system</p><br>
+<img src="c.png" width=700 height=400><br><br><br><br><br>
+
+
+ 
+
+
+
+
+    <marquee><u><i><h2 style="color: black;">Prepared By</i></u>: Jean Paul NDAYIRAGIJE_222015155</h2></marquee>
+	</body>
+	</html> 
